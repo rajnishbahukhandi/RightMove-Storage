@@ -24,7 +24,7 @@ class insuranceSelect():
                 self.insuranceNext()
                 time.sleep(15)
                 capture.captureScreen()
-                # self.paymentOnlineMethod.paymentOnline()
+                self.paymentOnlineMethod.paymentOnline()
         except NoSuchElementException:
             print("No insurances on the page.")
             self.driver.implicitly_wait(0.3)
@@ -33,7 +33,7 @@ class insuranceSelect():
             self.insuranceNext()
             time.sleep(15)
             capture.captureScreen()
-            # self.paymentOnlineMethod.paymentOnline()
+            self.paymentOnlineMethod.paymentOnline()
 
     def merchandise(self):
         self.driver.find_element_by_xpath(self.merchandiseBtn).click()
