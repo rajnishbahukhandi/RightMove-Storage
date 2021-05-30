@@ -21,4 +21,8 @@ class popUp():
 
     def unitPopUpCheck(self):
         self.driver.find_element_by_css_selector(self.unitSelection5).click()
-        # We have to change the Unit selection by manually. Just give the self.ID'S
+        # We have to change the Unit selection by manually (for Parking, AllUnit). Just give the self.ID'S
+        # (example:- self.unitSelection4 , self.unitSelection5 ,self.unitSelection6)
+        # 6 is the last in row (AllUnit), 5 is the last in row(Parking)
+
+
