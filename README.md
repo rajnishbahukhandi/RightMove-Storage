@@ -1,4 +1,4 @@
-# RightMove-Storage
+# RightMoveStorage
 
 Right Move Storage is an experienced storage management company focused on providing effective operational services for properties throughout the United States. 
 Understand the challenges of today’s complex real estate market and how it impacts the storage industry. Team has a proven track record of maximizing asset performance and profitability, resulting in improved NOI and asset valuation for our clients.
@@ -7,6 +7,7 @@ Right Move Storage having the United States different locations, each location h
 The storage unit including are Small, Medium, Large, X-Large, Parking, All Units.
 The user will choose any unit and click on the “Select” button. After that will fill in the information and choose the insurance and done the payment.
 The selection of the unit will go on the “Lease” and “Parking Lease” Agreement. Where the user can check info and signature on it.
+
 
 
 POM (Page Object Module) Contains:-
@@ -24,7 +25,8 @@ POM (Page Object Module) Contains:-
  TestCases - It having the unittest.TestCase class for run the test cases.
 
 
-User control :-
+
+User Control :-
 
  -> User can control variables.py (Credentials) for Email_Id, Current_Url, LastUnitNumber (for Select range button).
 
@@ -34,16 +36,17 @@ User control :-
  6 is the last in row (AllUnit), 5 is the last in row(Parking)
 
 
-Need to install :- 
+
+Need To Install :- 
 
  The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by     the Python community.
 
- https://pypi.org/
+  https://pypi.org/
 
 
 1. The selenium package is used to automate web browser interaction from Python. Supported Python Versions Python 2.7, 3.4+
 
-  pip3 install selenium
+   pip3 install selenium
 
 2. The main idea is to simplify management of binary drivers for different browsers. For install the ChromeDriverManager
 
