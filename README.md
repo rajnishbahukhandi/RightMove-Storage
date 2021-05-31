@@ -9,6 +9,9 @@ The user will choose any unit and click on the “Select” button. After that w
 The selection of the unit will go on the “Lease” and “Parking Lease” Agreement. Where the user can check info and signature on it.
 
 
+python --version
+Python 2.7.16
+
 
 POM (Page Object Module) Contains:-
 
